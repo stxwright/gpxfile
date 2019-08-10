@@ -45,6 +45,7 @@ plugins:
 future: true
 
 google_analytics: UA-145395876-1
+google_ad_client: ca-pub-1526597594578516
 
 defaults:
   -
