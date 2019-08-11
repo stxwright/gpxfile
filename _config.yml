@@ -15,9 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 title: GPX File
 email: stxwright@gmail.com
+author: stxwright
 description: >- # this means to ignore newlines until "baseurl:"
   A super simple site containing GPX files for sporting events.
-  Download the GPX file and upload it to your GPS device!
+  Browse the route using the interactive map, download the GPX file 
+  and upload it to your GPS device!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gpxfile.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: stxwright

@@ -11,7 +11,10 @@ new L.GPX(gpx, {
     marker_options: {
         startIconUrl: '/assets/images/pin-icon-start.png',
         endIconUrl: '/assets/images/pin-icon-end.png',
-        shadowUrl: '/assets/images/pin-shadow.png'
+        shadowUrl: '/assets/images/pin-shadow.png',
+        wptIconUrls: {
+            '': '/assets/images/pin-icon-wpt.png'
+        }
       }
 }).on('loaded', function(e) {
     map.fitBounds(e.target.getBounds());

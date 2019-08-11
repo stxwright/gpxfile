@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <gpx version="1.1" creator="GPX Editor 1.7.14.1740" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata>
-	<link href="http://www.mapstogpx.com">
-		<text>Sverrir Sigmundarson</text>
+	<link href="https://gpxfile.com">
+		<text>GPX File</text>
 	</link>
 	<time>2019-08-10T15:24:32Z</time>
 	<bounds minlat="37.9707197" minlon="-0.7045385" maxlat="38.00921" maxlon="-0.6504" />
 </metadata>
-<wpt lat="37.9789846" lon="-0.7045385">
-	<name>Salinas de Torrevieja</name>
-</wpt>
-<wpt lat="37.9707197" lon="-0.6797207">
-	<name>Torrevieja</name>
-</wpt>
 
 <trk>
 	<name>Salinas de Torrevieja &gt; Torrevieja</name>
