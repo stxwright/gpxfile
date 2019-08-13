@@ -1,3 +1,0 @@
----
----
-google.com, {{site.google_ad_client}}, DIRECT, f08c47fec0942fa0
