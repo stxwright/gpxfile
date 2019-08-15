@@ -49,6 +49,10 @@ future: true
 
 google_analytics: UA-145395876-1
 
+google:
+  tag_manager:
+    container_id: GTM-KBRG6QF
+
 defaults:
   -
     scope:
