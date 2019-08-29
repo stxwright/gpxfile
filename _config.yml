@@ -17,7 +17,7 @@ title: GPXFile.com
 email: stxwright@gmail.com
 author: stxwright
 description: >- # this means to ignore newlines until "baseurl:"
-  A super simple site containing GPX files for sporting events.
+  A super simple site containing GPX files for cycling events.
   Browse the route using the interactive map, download the GPX file 
   and upload it to your GPS device!
 baseurl: "" # the subpath of your site, e.g. /blog
