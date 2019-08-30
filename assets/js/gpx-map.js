@@ -14,7 +14,8 @@ new L.GPX(gpx, {
         shadowUrl: '/assets/images/pin-shadow.png',
         wptIconUrls: {
             '': '/assets/images/pin-icon-wpt.png'
-        }
+        },
+        shadowAnchor: [14, 44]
       }
 }).on('loaded', function(e) {
     map.fitBounds(e.target.getBounds());
