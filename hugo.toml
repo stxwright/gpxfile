@@ -1,10 +1,10 @@
-baseURL = '/'
+baseURL = 'https://stxwright.github.io/gpxfile/'
 languageCode = 'en-gb'
 title = 'GPXFile'
 
-# Normalize URLs for local and sub-folder hosting
+# Standard Hugo URL handling
 canonifyURLs = false
-relativeURLs = true
+relativeURLs = false
 
 # Enable future content
 buildFuture = true
