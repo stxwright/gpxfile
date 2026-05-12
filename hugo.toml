@@ -1,0 +1,52 @@
+baseURL = '/'
+languageCode = 'en-gb'
+title = 'GPXFile'
+
+# Normalize URLs for local and sub-folder hosting
+canonifyURLs = false
+relativeURLs = true
+
+# Enable future content
+buildFuture = true
+
+# Enable emoji support
+enableEmoji = true
+
+[params]
+ description = "A super simple site containing GPX files for cycling events. Browse the route using the interactive map, download the GPX file and upload it to your GPS device!"
+ email = "stxwright@gmail.com"
+ author = "stxwright"
+ twitter_username = "stxwright"
+ github_username = "stxwright"
+ google_analytics = "UA-145395876-1"
+ gtm_container_id = "GTM-KBRG6QF"
+
+[menu]
+ [[menu.main]]
+ name = 'Home'
+ url = '/'
+ weight = 1
+ [[menu.main]]
+ name = 'About'
+ url = '/about/'
+ weight = 2
+
+[permalinks]
+ posts = '/:year/:month/:day/:title/'
+
+[frontmatter]
+  date = [":filename", "date", "publishDate", "lastmod"]
+
+[markup]
+ [markup.goldmark]
+ [markup.goldmark.renderer]
+ unsafe = true # Allow HTML in markdown
+ [markup.goldmark.parser]
+ [markup.goldmark.parser.attribute]
+ block = true
+ title = true
+
+[outputs]
+ home = ['HTML', 'RSS']
+ page = ['HTML']
+ section = ['HTML', 'RSS']

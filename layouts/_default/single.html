@@ -1,0 +1,27 @@
+{{ define "main" }}
+<article class="post">
+    <header class="post-header">
+        <h1 class="post-title">{{ .Title }}</h1>
+    </header>
+
+    <div class="post-content">
+        {{ .Content }}
+
+        {{ if .Params.gpx }}
+        <div class="gpx-download">
+            <a href="{{ (printf "assets/gpx/%s" .Params.gpx) | relURL }}" class="btn">Download the GPX</a>
+        </div>
+
+        <div id="map"></div>
+        {{ end }}
+    </div>
+</article>
+{{ end }}
+
+{{ define "scripts" }}
+{{ if .Params.gpx }}
+<script src="{{ "assets/js/gpx-map.js" | relURL }}" 
+    gpx="{{ (printf "assets/gpx/%s" .Params.gpx) | relURL }}"
+    images="{{ "assets/images/" | relURL }}"></script>
+{{ end }}
+{{ end }}
