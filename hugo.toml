@@ -14,12 +14,6 @@ enableEmoji = true
 
 [params]
  description = "A super simple site containing GPX files for cycling events. Browse the route using the interactive map, download the GPX file and upload it to your GPS device!"
- email = "stxwright@gmail.com"
- author = "stxwright"
- twitter_username = "stxwright"
- github_username = "stxwright"
- google_analytics = "UA-145395876-1"
- gtm_container_id = "GTM-KBRG6QF"
 
 [menu]
  [[menu.main]]
